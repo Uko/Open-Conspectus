@@ -1,2 +1,3 @@
 \contentsline {chapter}{\numberline {1}Вступ}{3}
 \contentsline {chapter}{\numberline {2}Лінійні моделі та дослідження операцій}{5}
+\contentsline {section}{\numberline {2.1}Транспортна задача}{5}

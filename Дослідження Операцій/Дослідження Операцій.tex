@@ -6,6 +6,7 @@
 
 \documentclass[12pt]{book}
 \usepackage{xltxtra}
+\usepackage{slashbox}
 \usepackage{geometry}
 \geometry{a4paper}
 \renewcommand{\chaptername}{Тема}
@@ -27,4 +28,21 @@
 
 \chapter{Лінійні моделі та дослідження операцій}
 У випадку, якщо вихідна задача не є лінійною, то на першому етапі дослідження її або вважають лінійною, або всі залежності замінюються лінійними. Для побудови методу використовується апарат лінійного програмування.
+\section{Транспортна задача}
+Нехай є m пунктів виробництва…
+
+Транспортну задачу зручно зображати таблицею:\\
+\begin{tabular}{ | c | c | c | c | c | }
+\hline
+\slashbox{$x_{1 1}$}{$c_{1 1}$} & \slashbox{$x_{1 2}$}{$c_{1 2}$} & \vdots & \slashbox{$x_{1 n}$}{$c_{1 n}$} & $a_1$ \\
+\hline
+\slashbox{$x_{2 1}$}{$c_{2 1}$} & \slashbox{$x_{2 2}$}{$c_{2 2}$} & \vdots & \slashbox{$x_{2 n}$}{$c_{2 n}$} & $a_2$ \\
+\hline
+ $\cdots$ & $\cdots$ & $\ddots$ & $\cdots$ & $\cdots$ \\
+\hline
+\slashbox{$x_{m 1}$}{$c_{m 1}$} & \slashbox{$x_{m 2}$}{$c_{m 2}$} & \vdots & \slashbox{$x_{m n}$}{$c_{m n}$} & $a_m$ \\
+\hline
+$b_1$ & $b_2$ & \vdots & $b_n$ &  \\
+\hline
+\end{tabular}
 \end{document}
