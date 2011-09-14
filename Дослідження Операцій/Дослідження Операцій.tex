@@ -6,7 +6,7 @@
 
 \documentclass[12pt]{book}
 \usepackage{xltxtra}
-\usepackage{slashbox}
+\usepackage{makecell}
 \usepackage{geometry}
 \geometry{a4paper}
 \renewcommand{\chaptername}{Тема}
@@ -32,17 +32,18 @@
 Нехай є m пунктів виробництва…
 
 Транспортну задачу зручно зображати таблицею:\\
+
 \begin{tabular}{ | c | c | c | c | c | }
 \hline
-\slashbox{$x_{1 1}$}{$c_{1 1}$} & \slashbox{$x_{1 2}$}{$c_{1 2}$} & \vdots & \slashbox{$x_{1 n}$}{$c_{1 n}$} & $a_1$ \\
+\diaghead(4,3){easterr}{$c_{1 2}$}{$x_{1 2}$} & \diaghead(4,3){easterr}{$c_{1 2}$}{$x_{1 2}$} & \thead{\vdots} & \diaghead(4,3){easterr}{$c_{1 n}$}{$x_{1 n}$} & \thead{$a_1$} \\
 \hline
-\slashbox{$x_{2 1}$}{$c_{2 1}$} & \slashbox{$x_{2 2}$}{$c_{2 2}$} & \vdots & \slashbox{$x_{2 n}$}{$c_{2 n}$} & $a_2$ \\
+\diaghead(4,3){easterr}{$c_{2 1}$}{$x_{2 1}$} & \diaghead(4,3){easterr}{$c_{2 2}$}{$x_{2 2}$} & \thead{\vdots} & \diaghead(4,3){easterr}{$c_{2 n}$}{$x_{2 n}$} & \thead{$a_2$} \\
 \hline
- $\cdots$ & $\cdots$ & $\ddots$ & $\cdots$ & $\cdots$ \\
+ \thead{$\cdots$} & \thead{$\cdots$} & \thead{$\ddots$} & \thead{$\cdots$} & \thead{$\cdots$} \\
 \hline
-\slashbox{$x_{m 1}$}{$c_{m 1}$} & \slashbox{$x_{m 2}$}{$c_{m 2}$} & \vdots & \slashbox{$x_{m n}$}{$c_{m n}$} & $a_m$ \\
+\diaghead(4,3){easterr}{$c_{m 1}$}{$x_{m 1}$} & \diaghead(4,3){easterr}{$c_{m 2}$}{$x_{m 2}$} & \thead{\vdots} & \diaghead(4,3){easterr}{$c_{m n}$}{$x_{m n}$} & \thead{$a_m$} \\
 \hline
-$b_1$ & $b_2$ & \vdots & $b_n$ &  \\
+\thead{$b_1$} & \thead{$b_2$} & \thead{\vdots} & \thead{$b_n$} & \thead{} \\
 \hline
 \end{tabular}
 \end{document}
