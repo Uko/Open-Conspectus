@@ -8,6 +8,7 @@
 \usepackage{xltxtra}
 \usepackage{makecell}
 \usepackage{geometry}
+\usepackage{amsmath}
 \geometry{a4paper}
 \renewcommand{\chaptername}{Тема}
 \setmainfont[Mapping=tex-text]{Times New Roman}
@@ -46,4 +47,66 @@
 \thead{$b_1$} & \thead{$b_2$} & \thead{\vdots} & \thead{$b_n$} & \thead{} \\
 \hline
 \end{tabular}
+\\
+
+\begin{tabular}{ @{\hspace{1.4em}}l l }
+$
+\setlength{\arraycolsep}{0.27em}
+\begin{array}{ccccccccccccc}
+A_{1 1} & A_{1 2} & \dots & A_{1 n} & A_{2 1} & A_{2 2} & \dots & A_{2 n} & \dots & A_{m 1} & A_{m 2} & \dots & A_{m n} 
+\end{array}$ &  \\
+\multicolumn{2}{l}{
+$\left(
+ \begin{array}{ccccccccccccc}
+1 & 1 & \dots & 1 & 0 & 0 & \dots & 0 & \dots & 0 & 0 & \dots & 0 \\
+0 & 0 & \dots & 0 & 1 & 1 & \dots & 1 & \dots & 0 & 0 & \dots & 0 \\
+\dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+0 & 0 & \dots & 0 & 0 & 0 & \dots & 0 & \dots & 1 & 1 & \dots & 1 \\
+1 & 0 & \dots & 0 & 1 & 0 & \dots & 0 & \dots & 1 & 0 & \dots & 0 \\
+\dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+0 & 0 & \dots & 1 & 0 & 0 & \dots & 1 & \dots & 0 & 0 & \dots & 1
+\end{array}\right)
+\left(\begin{array}{c}
+x_{1 1} \\
+x_{1 2} \\
+\dots \\
+x_{1 n} \\
+x_{m 1} \\
+\dots \\
+x_{m n}
+\end{array}
+\right)
+=
+\left(\begin{array}{c}
+a_1 \\
+a_2 \\
+\dots \\
+a_m \\
+b_1 \\
+\dots \\
+b_n
+\end{array}
+\right)$}
+\end{tabular}
+
+\begin{tabular}{ @{\hspace{1em}}l l }
+$
+\setlength{\arraycolsep}{0.23em}
+\begin{array}{cccccccc}
+A_{1 n} & A_{2 n} & \dots & A_{m n} &  A_{1 1} & A_{1 2} & \dots & A_{1 n-1} 
+\end{array}$ &  \\
+\multicolumn{2}{l}{
+$\left|
+ \begin{array}{cccccccc}
+1 & 0 & \dots & 0 & 1 & 1 & \dots & 1 \\
+0 & 1 & \dots & 0 & 0 & 0 & \dots & 0 \\
+\dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+0 & 0 & \dots & 1 & 0 & 0 & \dots & 0 \\
+0 & 0 & \dots & 0 & 1 & 0 & \dots & 0 \\
+0 & 0 & \dots & 0 & 0 & 1 & \dots & 0 \\
+\dots & \dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+0 & 0 & \dots & 0 & 0 & 0 & \dots & 1 
+\end{array}\right|$}
+\end{tabular}
+
 \end{document}
