@@ -1,3 +1,6 @@
 \contentsline {chapter}{\numberline {1}Вступ}{3}
-\contentsline {chapter}{\numberline {2}Лінійні моделі та дослідження операцій}{5}
+\contentsline {chapter}{\numberline {2}Лінійні моделі дослідження операцій}{5}
 \contentsline {section}{\numberline {2.1}Транспортна задача}{5}
+\contentsline {subsection}{\numberline {2.1.1}Теорема 2}{6}
+\contentsline {section}{\numberline {2.2}Властивості опорних планів транспортної задачі}{6}
+\contentsline {subsection}{\numberline {2.2.1}Теорема 3}{7}
