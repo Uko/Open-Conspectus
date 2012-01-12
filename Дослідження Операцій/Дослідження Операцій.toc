@@ -1,41 +1,49 @@
 \contentsline {chapter}{\numberline {1}Вступ}{3}
-\contentsline {chapter}{\numberline {2}Лінійні моделі дослідження операцій}{5}
-\contentsline {section}{\numberline {2.1}Транспортна задача}{5}
-\contentsline {subsection}{\numberline {2.1.1}Теорема 1}{6}
-\contentsline {subsection}{\numberline {2.1.2}Теорема 2}{7}
-\contentsline {section}{\numberline {2.2}Властивості опорних планів транспортної задачі}{7}
-\contentsline {subsection}{\numberline {2.2.1}Теорема 3}{8}
-\contentsline {section}{\numberline {2.3}Методи побудови початкових опорних планів транспортної задачі}{9}
-\contentsline {subsection}{\numberline {2.3.1}Метод Північно-Західного кута}{9}
-\contentsline {subsection}{\numberline {2.3.2}Метод мінімального елементу}{10}
-\contentsline {subsection}{\numberline {2.3.3}Метод Фогеля}{11}
-\contentsline {section}{\numberline {2.4}Двоїста ТЗ}{11}
-\contentsline {section}{\numberline {2.5}Умови оптимальності ЕЗ}{11}
-\contentsline {subsection}{\numberline {2.5.1}Теорема}{11}
-\contentsline {subsection}{\numberline {2.5.2}Метод потенціалів (розв’язування ТЗ)}{11}
-\contentsline {subsection}{\numberline {2.5.3}Метод потенціалів. Обґрунтування зменшення знаку лінійної форми}{12}
-\contentsline {section}{\numberline {2.6}Відкрита та закрита модель ТЗ}{12}
-\contentsline {section}{\numberline {2.7}Задача про призначення}{12}
-\contentsline {subsection}{\numberline {2.7.1}Теорема 1}{12}
-\contentsline {subsection}{\numberline {2.7.2}Теорема 2}{12}
-\contentsline {subsection}{\numberline {2.7.3}Алгоритм}{12}
-\contentsline {section}{\numberline {2.8}Метод диференціальних рент (розв’язування ТЗ)}{12}
-\contentsline {section}{\numberline {2.9}Метод розв’язування ТЗ за критерієм часу}{15}
-\contentsline {section}{\numberline {2.10}Задача про максимальний потік}{16}
-\contentsline {subsection}{\numberline {2.10.1}Алгоритм}{17}
-\contentsline {section}{\numberline {2.11}Задача комівояжера}{17}
-\contentsline {chapter}{\numberline {3}Теорія ігор}{19}
-\contentsline {section}{\numberline {3.1}Класифікація ігор}{20}
-\contentsline {section}{\numberline {3.2}Максимільні теореми}{20}
-\contentsline {subsection}{\numberline {3.2.1}Теорема 1}{20}
-\contentsline {subsection}{\numberline {3.2.2}Теорема 2}{20}
-\contentsline {section}{\numberline {3.3}*Шось про мішані стратегії*}{20}
-\contentsline {subsection}{\numberline {3.3.1}Теорема 1}{20}
-\contentsline {section}{\numberline {3.4}Властивості оптимальних мішаних стратегій}{20}
-\contentsline {subsection}{\numberline {3.4.1}Теорема 2}{20}
-\contentsline {subsection}{\numberline {3.4.2}Наслідок}{20}
-\contentsline {subsection}{\numberline {3.4.3}Теорема 3}{20}
-\contentsline {section}{\numberline {3.5}Спрощення ігор}{20}
-\contentsline {subsection}{\numberline {3.5.1}Теорема 4}{20}
-\contentsline {subsection}{\numberline {3.5.2}Теорема 5}{20}
-\contentsline {section}{\numberline {3.6}Розв’язування матричних ігор 2х2}{20}
+\contentsline {section}{\numberline {1.1}Алгоритм Пріма}{3}
+\contentsline {chapter}{\numberline {2}Алгоритми пошуку шляхів}{5}
+\contentsline {section}{\numberline {2.1}Алгоритм Форда}{5}
+\contentsline {section}{\numberline {2.2}Алгоритм Флойда}{5}
+\contentsline {chapter}{\numberline {3}Лінійні моделі дослідження операцій}{7}
+\contentsline {section}{\numberline {3.1}Транспортна задача}{7}
+\contentsline {subsection}{\numberline {3.1.1}Теорема 1}{8}
+\contentsline {subsection}{\numberline {3.1.2}Теорема 2}{9}
+\contentsline {section}{\numberline {3.2}Властивості опорних планів транспортної задачі}{9}
+\contentsline {subsection}{\numberline {3.2.1}Теорема 3}{10}
+\contentsline {section}{\numberline {3.3}Методи побудови початкових опорних планів транспортної задачі}{11}
+\contentsline {subsection}{\numberline {3.3.1}Метод Північно-Західного кута}{11}
+\contentsline {subsection}{\numberline {3.3.2}Метод мінімального елементу}{12}
+\contentsline {subsection}{\numberline {3.3.3}Метод Фогеля}{13}
+\contentsline {section}{\numberline {3.4}Двоїста ТЗ}{13}
+\contentsline {section}{\numberline {3.5}Умови оптимальності ЕЗ}{13}
+\contentsline {subsection}{\numberline {3.5.1}Теорема}{13}
+\contentsline {subsection}{\numberline {3.5.2}Метод потенціалів (розв’язування ТЗ)}{13}
+\contentsline {subsection}{\numberline {3.5.3}Метод потенціалів. Обґрунтування зменшення знаку лінійної форми}{14}
+\contentsline {section}{\numberline {3.6}Відкрита та закрита модель ТЗ}{14}
+\contentsline {section}{\numberline {3.7}Задача про призначення}{14}
+\contentsline {subsection}{\numberline {3.7.1}Теорема 1}{14}
+\contentsline {subsection}{\numberline {3.7.2}Теорема 2}{14}
+\contentsline {subsection}{\numberline {3.7.3}Алгоритм}{14}
+\contentsline {section}{\numberline {3.8}Метод диференціальних рент (розв’язування ТЗ)}{14}
+\contentsline {section}{\numberline {3.9}Метод розв’язування ТЗ за критерієм часу}{17}
+\contentsline {section}{\numberline {3.10}Задача про максимальний потік}{18}
+\contentsline {subsection}{\numberline {3.10.1}Алгоритм}{19}
+\contentsline {section}{\numberline {3.11}Задача комівояжера}{19}
+\contentsline {chapter}{\numberline {4}Основи мережевого планування}{21}
+\contentsline {section}{\numberline {4.1}Часові параметри детермінованих сіток (мереж)}{21}
+\contentsline {section}{\numberline {4.2}Ранні та пізні строки початку та закінчення робіт}{21}
+\contentsline {section}{\numberline {4.3}Резерви часу шляхів та робіт}{21}
+\contentsline {chapter}{\numberline {5}Теорія ігор}{23}
+\contentsline {section}{\numberline {5.1}Класифікація ігор}{24}
+\contentsline {section}{\numberline {5.2}Максимільні теореми}{24}
+\contentsline {subsection}{\numberline {5.2.1}Теорема 1}{24}
+\contentsline {subsection}{\numberline {5.2.2}Теорема 2}{24}
+\contentsline {section}{\numberline {5.3}*Шось про мішані стратегії*}{24}
+\contentsline {subsection}{\numberline {5.3.1}Теорема 1}{24}
+\contentsline {section}{\numberline {5.4}Властивості оптимальних мішаних стратегій}{24}
+\contentsline {subsection}{\numberline {5.4.1}Теорема 2}{24}
+\contentsline {subsection}{\numberline {5.4.2}Наслідок}{24}
+\contentsline {subsection}{\numberline {5.4.3}Теорема 3}{24}
+\contentsline {section}{\numberline {5.5}Спрощення ігор}{24}
+\contentsline {subsection}{\numberline {5.5.1}Теорема 4}{24}
+\contentsline {subsection}{\numberline {5.5.2}Теорема 5}{24}
+\contentsline {section}{\numberline {5.6}Розв’язування матричних ігор 2х2}{24}
