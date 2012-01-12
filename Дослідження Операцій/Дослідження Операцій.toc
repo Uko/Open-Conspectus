@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1.1}Алгоритм Пріма}{3}
 \contentsline {chapter}{\numberline {2}Алгоритми пошуку шляхів}{5}
 \contentsline {section}{\numberline {2.1}Алгоритм Форда}{5}
-\contentsline {section}{\numberline {2.2}Алгоритм Флойда}{5}
+\contentsline {section}{\numberline {2.2}Алгоритм Флойда}{6}
 \contentsline {chapter}{\numberline {3}Лінійні моделі дослідження операцій}{7}
 \contentsline {section}{\numberline {3.1}Транспортна задача}{7}
 \contentsline {subsection}{\numberline {3.1.1}Теорема 1}{8}
