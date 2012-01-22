@@ -1,0 +1,3 @@
+[submodule "Додатки/Екзамени"]
+	path = Додатки/Екзамени
+	url = git://github.com/Uko/Exams.git
